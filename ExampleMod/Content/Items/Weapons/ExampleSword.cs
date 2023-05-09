@@ -22,7 +22,7 @@ namespace ExampleMod.Content.Items.Weapons
 			Item.knockBack = 6; // The force of knockback of the weapon. Maximum is 20
 			Item.crit = 6; // The critical strike chance the weapon has. The player, by default, has a 4% critical strike chance.
 
-			Item.value = Item.buyPrice(gold: 1); // The value of the weapon in copper coins.
+			Item.value = Item.buyPrice(gold: 1); // The value of the weapon in a List? of Platinum, Gold, Silver and Copper Coins, here only 1 gold.
 			Item.rare = ModContent.RarityType<ExampleModRarity>(); // Give this item our custom rarity.
 			Item.UseSound = SoundID.Item1; // The sound when the weapon is being used.
 		}
